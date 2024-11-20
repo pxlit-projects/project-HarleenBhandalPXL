@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Vk2KTP7_uBCfaJVS5azr-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vk2KTP7_uBCfaJVS5azr-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="21" width="1210" height="649" as="geometry" />
         </mxCell>
         <mxCell id="IUHhZrl2KTE5IYLkYpyC-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -43,7 +43,7 @@
             <mxPoint x="350" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUHhZrl2KTE5IYLkYpyC-47" value="Open Feign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IUHhZrl2KTE5IYLkYpyC-18" connectable="0" vertex="1">
+        <mxCell id="IUHhZrl2KTE5IYLkYpyC-47" value="Open Feign&lt;br&gt;Sync" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IUHhZrl2KTE5IYLkYpyC-18" connectable="0" vertex="1">
           <mxGeometry x="0.0833" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -54,7 +54,7 @@
             <mxPoint x="350" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUHhZrl2KTE5IYLkYpyC-48" value="Open Feign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IUHhZrl2KTE5IYLkYpyC-20" connectable="0" vertex="1">
+        <mxCell id="IUHhZrl2KTE5IYLkYpyC-48" value="Open Feign&lt;br&gt;Sync" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IUHhZrl2KTE5IYLkYpyC-20" connectable="0" vertex="1">
           <mxGeometry x="-0.0617" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -83,6 +83,11 @@
             <mxPoint x="640" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="L1i3NrXLeDei6anszceg-1" value="Async" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUHhZrl2KTE5IYLkYpyC-41">
+          <mxGeometry x="-0.3167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IUHhZrl2KTE5IYLkYpyC-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="IUHhZrl2KTE5IYLkYpyC-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="230" as="sourcePoint" />
@@ -92,6 +97,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="L1i3NrXLeDei6anszceg-2" value="Async" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUHhZrl2KTE5IYLkYpyC-42">
+          <mxGeometry x="0.4576" y="1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IUHhZrl2KTE5IYLkYpyC-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IUHhZrl2KTE5IYLkYpyC-40" target="IUHhZrl2KTE5IYLkYpyC-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="450" as="sourcePoint" />
@@ -99,6 +109,11 @@
             <Array as="points">
               <mxPoint x="820" y="450" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1i3NrXLeDei6anszceg-3" value="Async" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUHhZrl2KTE5IYLkYpyC-43">
+          <mxGeometry x="0.5082" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUHhZrl2KTE5IYLkYpyC-45" value="" style="group" parent="1" connectable="0" vertex="1">
