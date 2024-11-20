@@ -32,29 +32,27 @@ Alle communicatie tussen de services gebeurt synchroon. De communicatie met de M
 
 ### US1:
 - Synchroon: Wanneer er een post wordt geplaatst door de redacteur.
-- Asynchroon: De message met de Message Service.
+- Asynchroon: Message naar de Review Service zodat ze weten dat er een nieuwe post klaar staat voor een review.
 ### US2:
 - Synchroon: Wanneer de post wordt opgeslagen door de redacteur.
 ### US3:
 - Synchroon: De update request voor de post van de redacteur.
-- Asynchroon: De message met de Message Service.
+- Asynchroon: Message naar de Review Service zodat de post opnieuw gereviewed kan worden
 ### US4:
 - Synchroon: Wanneer de gebruiker de posts ophaalt.
 ### US5:
 - Synchroon: De posts moeten na het filteren terug gestuurd worden zodat de gebruiker ze meteen kan zien.
 ### US7:
 - Synchroon: De get request en de update request van de posts.
-- Asynchroon: De message met de Messaging Service.
+- Asynchroon: Message naar de Post Service voor de statuswijziging van de post.
 ### US8:
-- Asynchroon: De message met de Messaging Service.
+- Asynchroon: Message voor de redacteur zodat hij weet dat er een nieuwe status is van zijn post. Dit
 ### US9:
 - Synchroon: Wanneer de opmerkingen woden opgeslagen.
-- Asynchroon: De message met de Messaging Service.
+- Asynchroon: Message naar de post service zodat de redacteur weet dat er een opmerking is geplaatst.
 ### US10:
 - Synchroon: Wanneer de reactie wordt geplaatst.
-- Asynchroon: De message met de Messaging Service.
 ### US11:
 - Synchroon: Wanneer de reacties worden opgehaald.
 ### US12:
 - Synchroon: Wanneer de reacties worden opgehaald, verwijderd of worden geupdate.
-- asynchroon: De message met de Messaging Service.
