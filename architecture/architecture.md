@@ -31,28 +31,28 @@ De Messaging Service maakt gebruik van RabbitMQ. Deze gaat asynchroon communicer
 Alle communicatie tussen de services gebeurt synchroon. De communicatie met de Messaging Service gebeurt asynchroon.
 
 ### US1:
-- Synchroon: Wanneer er een post wordt geplaatst door de redacteur.
-- Asynchroon: Message naar de Review Service zodat ze weten dat er een nieuwe post klaar staat voor een review.
+- Synchroon: Wanneer er een post wordt geplaatst door de redacteur. Van de frontend wordt er een request gestuurd naar de gataway, die stuurt de request naar de Post Service.
+- Asynchroon: Message van de Post Service naar de Review Service zodat ze weten dat er een nieuwe post klaar staat voor een review.
 ### US2:
-- Synchroon: Wanneer de post wordt opgeslagen door de redacteur.
+- Synchroon: Wanneer de post wordt opgeslagen door de redacteur. Van de frontend wordt er een request gestuurd naar de Gateway, die stuurt dan de request naar de Post Service.
 ### US3:
-- Synchroon: De update request voor de post van de redacteur.
-- Asynchroon: Message naar de Review Service zodat de post opnieuw gereviewed kan worden
+- Synchroon: De update request voor de post van de redacteur. Van de frontend wordt er een request via de gateway naar de Post Service gestuurd.
+- Asynchroon: Message van de Post Service naar de Review Service zodat de post opnieuw gereviewed kan worden
 ### US4:
-- Synchroon: Wanneer de gebruiker de posts ophaalt.
+- Synchroon: Wanneer de gebruiker de posts ophaalt. Via de frontend wordt er een request gestuurd via de gateway naar de Post Service
 ### US5:
-- Synchroon: De posts moeten na het filteren terug gestuurd worden zodat de gebruiker ze meteen kan zien.
+- Synchroon: De posts moeten na het filteren terug gestuurd worden zodat de gebruiker ze meteen kan zien. Filter data wordt via de gateway naar de Post Service gestuurd. Daar wordt de query uitgevoerd en die stuurt de data terug naar de frontend.
 ### US7:
-- Synchroon: De get request en de update request van de posts.
-- Asynchroon: Message naar de Post Service voor de statuswijziging van de post.
+- Synchroon: De get request en de update request van de posts worden vanuit de frontend via de gateway naar de Review Service gestuurd.
+- Asynchroon: Message van review Service naar de Post Service voor de statuswijziging van de post.
 ### US8:
-- Asynchroon: Message voor de redacteur zodat hij weet dat er een nieuwe status is van zijn post. Dit
+- Asynchroon: Message voor de redacteur zodat hij weet dat er een nieuwe status is van zijn post.
 ### US9:
-- Synchroon: Wanneer de opmerkingen woden opgeslagen.
-- Asynchroon: Message naar de post service zodat de redacteur weet dat er een opmerking is geplaatst.
+- Synchroon: Wanneer de opmerkingen woden opgeslagen. Request vanuit de frontend via de gateway naar de review service.
+- Asynchroon: Message van de review service naar de post service zodat de redacteur weet dat er een opmerking is geplaatst.
 ### US10:
-- Synchroon: Wanneer de reactie wordt geplaatst.
+- Synchroon: Wanneer de reactie wordt geplaatst. Request vanuit de frontend via de gateway naar de comment service.
 ### US11:
-- Synchroon: Wanneer de reacties worden opgehaald.
+- Synchroon: Wanneer de reacties worden opgehaald. Request vanuit de frontend via de gateway naar de comment service.
 ### US12:
-- Synchroon: Wanneer de reacties worden opgehaald, verwijderd of worden geupdate.
+- Synchroon: Wanneer de reacties worden opgehaald, verwijderd of worden geupdate. Request vanuit de frontend via de gateway service naar de comment service.
