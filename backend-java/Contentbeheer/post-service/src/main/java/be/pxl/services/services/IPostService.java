@@ -8,7 +8,8 @@ import java.util.List;
 public interface IPostService {
     Long createPost(PostRequest postRequest);
     void deletePost();
-    void updatePost();
-    List<PostResponse> getPosts();
-    void savePostAsConcept();
+    PostResponse updatePost(long id, PostRequest postRequest);
+    List<PostResponse> getPublishedPosts();
+    List<PostResponse> getAllPosts();
+    Long savePostAsConcept(PostRequest postRequest);
 }

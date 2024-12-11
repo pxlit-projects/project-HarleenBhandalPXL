@@ -6,15 +6,19 @@ spring:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
   cloud:
     gateway:
-      #      default-filters:
-      #      - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      default-filters:
+            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
       globalcors:
         corsConfigurations:
           '[/**]':
             allowedOrigins:
-              - "*"
+              - "http://localhost:4200"
             allowedMethods:
-              - "*"
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
             allowedHeaders:
               - "*"
             allowCredentials: false
@@ -25,9 +29,9 @@ spring:
         - id: post-service
           uri: lb://post-service
           predicates:
-            - Path=/post/**
+            - Path=/api/posts/**
           filters:
-            - RewritePath=/post/(?<path>.*), /$\{path}
+            - RewritePath=/api/posts/(?<path>.*), /$\{path}
   main:
     web-application-type: reactive
 

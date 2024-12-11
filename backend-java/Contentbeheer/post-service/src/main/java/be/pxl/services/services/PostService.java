@@ -3,8 +3,8 @@ package be.pxl.services.services;
 import be.pxl.services.domain.Post;
 import be.pxl.services.dto.PostRequest;
 import be.pxl.services.dto.PostResponse;
+import be.pxl.services.exception.NotFoundException;
 import be.pxl.services.repository.PostRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +22,8 @@ public class PostService implements IPostService {
                 .title(postRequest.getTitle())
                 .content(postRequest.getContent())
                 .author(postRequest.getAuthor())
-                .date(LocalDateTime.now())
+                .creationDate(LocalDateTime.now())
+                .isConcept(false)
                 .build();
 
         this.postRepository.save(post);
@@ -35,23 +36,58 @@ public class PostService implements IPostService {
     }
 
     @Override
-    public void updatePost() {
+    public PostResponse updatePost(long id, PostRequest postRequest) {
+        Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
 
+        post.setTitle(postRequest.getTitle());
+        post.setContent(postRequest.getContent());
+        post.setAuthor(postRequest.getAuthor());
+
+        postRepository.save(post);
+
+        return PostResponse.builder()
+                .title(post.getTitle())
+                .content(post.getContent())
+                .author(post.getAuthor())
+                .creationDate(post.getCreationDate())
+                .build();
     }
 
     @Override
-    public List<PostResponse> getPosts() {
+    public List<PostResponse> getPublishedPosts() {
+        return postRepository.findAll().stream()
+                .filter(post -> !post.isConcept())
+                .map(post -> PostResponse.builder()
+                        .title(post.getTitle())
+                        .content(post.getContent())
+                        .author(post.getAuthor())
+                        .creationDate(post.getCreationDate())
+                        .build()).toList();
+    }
+
+    @Override
+    public List<PostResponse> getAllPosts() {
         return postRepository.findAll().stream()
                 .map(post -> PostResponse.builder()
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
-                        .creationDate(post.getDate())
+                        .creationDate(post.getCreationDate())
+                        .isConcept(post.isConcept())
                         .build()).toList();
     }
 
     @Override
-    public void savePostAsConcept() {
+    public Long savePostAsConcept(PostRequest postRequest) {
+        Post post = Post.builder()
+                .title(postRequest.getTitle())
+                .content(postRequest.getContent())
+                .author(postRequest.getAuthor())
+                .creationDate(LocalDateTime.now())
+                .isConcept(false)
+                .build();
 
+        this.postRepository.save(post);
+        return post.getId();
     }
 }
