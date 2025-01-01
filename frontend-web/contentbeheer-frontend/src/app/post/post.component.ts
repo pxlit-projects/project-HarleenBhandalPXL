@@ -26,10 +26,8 @@ export class PostComponent implements OnInit{
   }
 
   getPosts(): void {
-    this.postService.getPosts().subscribe(posts => {
+    this.postService.getPublishedPosts().subscribe(posts => {
       this.posts = posts;
     });
   }
-
-  protected readonly data = data;
 }

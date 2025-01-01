@@ -49,6 +49,7 @@ public class PostService implements IPostService {
                 .title(post.getTitle())
                 .content(post.getContent())
                 .author(post.getAuthor())
+                .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
                 .build();
     }
@@ -61,6 +62,20 @@ public class PostService implements IPostService {
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
+                        .isConcept(post.isConcept())
+                        .creationDate(post.getCreationDate())
+                        .build()).toList();
+    }
+
+    @Override
+    public List<PostResponse> getConceptPosts() {
+        return postRepository.findAll().stream()
+                .filter(Post::isConcept)
+                .map(post -> PostResponse.builder()
+                        .title(post.getTitle())
+                        .content(post.getContent())
+                        .author(post.getAuthor())
+                        .isConcept(post.isConcept())
                         .creationDate(post.getCreationDate())
                         .build()).toList();
     }
@@ -84,7 +99,7 @@ public class PostService implements IPostService {
                 .content(postRequest.getContent())
                 .author(postRequest.getAuthor())
                 .creationDate(LocalDateTime.now())
-                .isConcept(false)
+                .isConcept(true)
                 .build();
 
         this.postRepository.save(post);

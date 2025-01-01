@@ -26,7 +26,7 @@ public class PostController {
         return ResponseEntity.created(URI.create("/api/posts/" + id)).build();
     }
 
-    @PostMapping("/concepts")
+    @PostMapping("/concepts/add")
     public ResponseEntity<String> savePostAsConcept(@RequestBody PostRequest postRequest, @RequestHeader("Role") String role) {
         if (!role.equals("editor")) {
             return ResponseEntity.status(403).body("Only editors can post");
@@ -40,6 +40,12 @@ public class PostController {
     public ResponseEntity<List<PostResponse>> getPublishedPosts() {
         List<PostResponse> posts = this.postService.getPublishedPosts();
         return ResponseEntity.ok(posts);
+    }
+
+    @GetMapping("/concepts")
+    public ResponseEntity<List<PostResponse>> getConceptPosts() {
+        List<PostResponse> conceptPosts = this.postService.getConceptPosts();
+        return ResponseEntity.ok(conceptPosts);
     }
 
     @GetMapping("/all")

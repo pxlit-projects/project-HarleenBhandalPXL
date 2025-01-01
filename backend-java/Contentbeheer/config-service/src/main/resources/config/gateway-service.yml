@@ -29,9 +29,9 @@ spring:
         - id: post-service
           uri: lb://post-service
           predicates:
-            - Path=/api/posts/**
+            - Path=/post-service/api/posts/**
           filters:
-            - RewritePath=/api/posts/(?<path>.*), /$\{path}
+            - RewritePath=/post-service/(?<path>.*), /$\{path}
   main:
     web-application-type: reactive
 

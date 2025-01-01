@@ -1,13 +1,19 @@
 <div class="h-screen flex justify-center items-center">
-  <div class="flex flex-col items-center">
-    <mat-form-field>
+  <div class="flex flex-col items-center w-4/5">
+    <mat-form-field class="w-full">
       <mat-label>Title</mat-label>
-      <input matInput />
+      <input matInput [(ngModel)]="title" name="title">
     </mat-form-field>
-    <mat-form-field>
-      <mat-label>Textarea</mat-label>
-      <textarea matInput></textarea>
+    <mat-form-field class="w-full">
+      <mat-label>Content</mat-label>
+      <textarea matInput [(ngModel)]="content" name="content"></textarea>
     </mat-form-field>
+    <mat-form-field class="w-full">
+      <mat-label>Author</mat-label>
+      <input matInput [(ngModel)]="author" name="author">
+    </mat-form-field>
+    <button mat-raised-button (click)="createPost()">Create Post</button>
+    <button mat-raised-button (click)="savePostAsConcept()">Save Post As Concept</button>
   </div>
 </div>
 

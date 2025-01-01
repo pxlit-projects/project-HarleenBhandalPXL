@@ -10,6 +10,7 @@ public interface IPostService {
     void deletePost();
     PostResponse updatePost(long id, PostRequest postRequest);
     List<PostResponse> getPublishedPosts();
+    List<PostResponse> getConceptPosts();
     List<PostResponse> getAllPosts();
     Long savePostAsConcept(PostRequest postRequest);
 }
