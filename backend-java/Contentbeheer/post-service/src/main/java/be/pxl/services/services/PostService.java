@@ -18,6 +18,10 @@ public class PostService implements IPostService {
 
     @Override
     public Long createPost(PostRequest postRequest) {
+        if  (postRequest.getTitle().isEmpty() || postRequest.getContent().isEmpty() || postRequest.getAuthor().isEmpty()) {
+            throw new IllegalArgumentException("Title, content and author are required");
+        }
+
         Post post = Post.builder()
                 .title(postRequest.getTitle())
                 .content(postRequest.getContent())
@@ -38,6 +42,10 @@ public class PostService implements IPostService {
     @Override
     public PostResponse updatePost(long id, PostRequest postRequest) {
         Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
+
+        if  (postRequest.getTitle().isEmpty() || postRequest.getContent().isEmpty() || postRequest.getAuthor().isEmpty()) {
+            throw new IllegalArgumentException("Title, content and author are required");
+        }
 
         post.setTitle(postRequest.getTitle());
         post.setContent(postRequest.getContent());
@@ -97,6 +105,10 @@ public class PostService implements IPostService {
 
     @Override
     public Long savePostAsConcept(PostRequest postRequest) {
+        if  (postRequest.getTitle().isEmpty() || postRequest.getContent().isEmpty() || postRequest.getAuthor().isEmpty()) {
+            throw new IllegalArgumentException("Title, content and author are required");
+        }
+
         Post post = Post.builder()
                 .title(postRequest.getTitle())
                 .content(postRequest.getContent())

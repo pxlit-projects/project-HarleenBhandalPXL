@@ -3,7 +3,7 @@ import {MatButton} from "@angular/material/button";
 import {MatFormField, MatLabel} from "@angular/material/form-field";
 import {MatInput} from "@angular/material/input";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {PostService} from "../../services/post.service";
+import {PostService} from "../../services/post/post.service";
 import {ActivatedRoute, Router, RouterLink} from "@angular/router";
 
 @Component({

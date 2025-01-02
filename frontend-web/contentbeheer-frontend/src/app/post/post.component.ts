@@ -1,12 +1,12 @@
 import {Component, inject, OnInit} from '@angular/core';
-import {PostService} from "../services/post.service";
+import {PostService} from "../services/post/post.service";
+import {AuthService} from "../services/auth/auth.service";
 import {Post} from "../models/post.model";
 import {MatCardModule} from "@angular/material/card";
-import {DatePipe} from "@angular/common";
-import {data} from "autoprefixer";
+import {DatePipe} from "@angular/common"; // DatePipe is om de datum te formateren
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
-import {RouterLink} from "@angular/router"; // DatePipe is om de datum te formateren
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-post',
@@ -24,6 +24,7 @@ import {RouterLink} from "@angular/router"; // DatePipe is om de datum te format
 export class PostComponent implements OnInit{
   posts: Post[] = [];
   postService: PostService = inject(PostService);
+  authService: AuthService = inject(AuthService);
 
   constructor() {}
 
