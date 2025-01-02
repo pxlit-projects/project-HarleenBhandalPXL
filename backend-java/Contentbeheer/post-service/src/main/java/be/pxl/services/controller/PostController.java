@@ -67,4 +67,10 @@ public class PostController {
         PostResponse postResponse = this.postService.updatePost(id, postRequest);
         return ResponseEntity.ok(postResponse);
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getPost(@PathVariable long id) {
+        PostResponse postResponse = this.postService.getPostById(id);
+        return ResponseEntity.ok(postResponse);
+    }
 }

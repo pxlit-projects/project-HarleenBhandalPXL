@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PostResponse {
+    private Long id;
     private String title;
     private String content;
     private String author;

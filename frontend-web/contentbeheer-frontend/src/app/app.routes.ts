@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import {CreatePostComponent} from "./post/create/create-post/create-post.component";
 import {PostComponent} from "./post/post.component";
 import {ConceptComponent} from "./post/concept/concept.component";
+import {EditComponent} from "./post/edit/edit.component";
 
 export const routes: Routes = [
   {
@@ -15,6 +16,10 @@ export const routes: Routes = [
   {
     path: 'concepts',
     component: ConceptComponent
+  },
+  {
+    path: 'posts/:id/edit',
+    component: EditComponent
   },
   {
     path: '',

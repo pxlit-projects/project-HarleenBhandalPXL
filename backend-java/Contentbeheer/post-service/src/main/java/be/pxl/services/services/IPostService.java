@@ -13,4 +13,5 @@ public interface IPostService {
     List<PostResponse> getConceptPosts();
     List<PostResponse> getAllPosts();
     Long savePostAsConcept(PostRequest postRequest);
+    PostResponse getPostById(long id);
 }

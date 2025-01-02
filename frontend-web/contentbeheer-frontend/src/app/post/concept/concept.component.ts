@@ -1,5 +1,4 @@
 import {Component, inject} from '@angular/core';
-import {PostComponent} from "../post.component";
 import {DatePipe} from "@angular/common";
 import {Post} from "../../models/post.model";
 import {PostService} from "../../services/post.service";
@@ -8,7 +7,6 @@ import {PostService} from "../../services/post.service";
   selector: 'app-concept',
   standalone: true,
   imports: [
-    PostComponent,
     DatePipe
   ],
   templateUrl: './concept.component.html',

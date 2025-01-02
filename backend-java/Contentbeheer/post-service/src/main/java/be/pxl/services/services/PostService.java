@@ -59,6 +59,7 @@ public class PostService implements IPostService {
         return postRepository.findAll().stream()
                 .filter(post -> !post.isConcept())
                 .map(post -> PostResponse.builder()
+                        .id(post.getId())
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
@@ -72,6 +73,7 @@ public class PostService implements IPostService {
         return postRepository.findAll().stream()
                 .filter(Post::isConcept)
                 .map(post -> PostResponse.builder()
+                        .id(post.getId())
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
@@ -84,6 +86,7 @@ public class PostService implements IPostService {
     public List<PostResponse> getAllPosts() {
         return postRepository.findAll().stream()
                 .map(post -> PostResponse.builder()
+                        .id(post.getId())
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
@@ -104,5 +107,19 @@ public class PostService implements IPostService {
 
         this.postRepository.save(post);
         return post.getId();
+    }
+
+    @Override
+    public PostResponse getPostById(long id) {
+        Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
+
+        return PostResponse.builder()
+                .id(post.getId())
+                .title(post.getTitle())
+                .content(post.getContent())
+                .author(post.getAuthor())
+                .isConcept(post.isConcept())
+                .creationDate(post.getCreationDate())
+                .build();
     }
 }

@@ -31,4 +31,13 @@ export class PostService {
     const headers = new HttpHeaders().set('Role', 'editor');
     return this.http.post<Post>(`${this.api}/concepts/add`, post, {headers});
   }
+
+  editPost(id: number, post: Post): Observable<Post> {
+    const headers = new HttpHeaders().set('Role', 'editor');
+    return this.http.put<Post>(`${this.api}/${id}/edit`, post, {headers});
+  }
+
+  getPost(id: number): Observable<Post> {
+    return this.http.get<Post>(`${this.api}/${id}`);
+  }
 }
