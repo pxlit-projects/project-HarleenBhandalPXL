@@ -1,4 +1,4 @@
-package be.pxl.services.dto;
+package be.pxl.services.domain.dto;
 
 import be.pxl.services.domain.enums.PostStatus;
 import lombok.AllArgsConstructor;

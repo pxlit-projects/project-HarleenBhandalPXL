@@ -1,28 +1,21 @@
 package be.pxl.services.domain;
 
-import be.pxl.services.domain.enums.PostStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @Entity
-@Table(name = "post")
+@Table(name = "review")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Post {
+public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String title;
-    private String content;
-    private String author;
-    private LocalDateTime creationDate;
-    private boolean isConcept;
-    private PostStatus status;
+    private Long postId;
+    private String review;
 }

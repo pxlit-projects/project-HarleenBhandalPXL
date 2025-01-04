@@ -1,6 +1,7 @@
 package be.pxl.services.services;
 
 import be.pxl.services.domain.Post;
+import be.pxl.services.domain.enums.PostStatus;
 import be.pxl.services.dto.PostRequest;
 import be.pxl.services.dto.PostResponse;
 import be.pxl.services.exception.NotFoundException;
@@ -28,6 +29,7 @@ public class PostService implements IPostService {
                 .author(postRequest.getAuthor())
                 .creationDate(LocalDateTime.now())
                 .isConcept(false)
+                .status(PostStatus.PENDING)
                 .build();
 
         this.postRepository.save(post);
@@ -59,6 +61,7 @@ public class PostService implements IPostService {
                 .author(post.getAuthor())
                 .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
+                .status(post.getStatus())
                 .build();
     }
 
@@ -73,6 +76,7 @@ public class PostService implements IPostService {
                         .author(post.getAuthor())
                         .isConcept(post.isConcept())
                         .creationDate(post.getCreationDate())
+                        .status(post.getStatus())
                         .build()).toList();
     }
 
@@ -87,6 +91,7 @@ public class PostService implements IPostService {
                         .author(post.getAuthor())
                         .isConcept(post.isConcept())
                         .creationDate(post.getCreationDate())
+                        .status(post.getStatus())
                         .build()).toList();
     }
 
@@ -100,6 +105,7 @@ public class PostService implements IPostService {
                         .author(post.getAuthor())
                         .creationDate(post.getCreationDate())
                         .isConcept(post.isConcept())
+                        .status(post.getStatus())
                         .build()).toList();
     }
 
@@ -115,6 +121,7 @@ public class PostService implements IPostService {
                 .author(postRequest.getAuthor())
                 .creationDate(LocalDateTime.now())
                 .isConcept(true)
+                .status(PostStatus.PENDING)
                 .build();
 
         this.postRepository.save(post);
@@ -132,6 +139,42 @@ public class PostService implements IPostService {
                 .author(post.getAuthor())
                 .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
+                .build();
+    }
+
+    @Override
+    public PostResponse approvePost(long id) {
+        Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
+
+        post.setStatus(PostStatus.APPROVED);
+        postRepository.save(post);
+
+        return PostResponse.builder()
+                .id(post.getId())
+                .title(post.getTitle())
+                .content(post.getContent())
+                .author(post.getAuthor())
+                .isConcept(post.isConcept())
+                .creationDate(post.getCreationDate())
+                .status(post.getStatus())
+                .build();
+    }
+
+    @Override
+    public PostResponse rejectPost(long id) {
+        Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
+
+        post.setStatus(PostStatus.REJECTED);
+        postRepository.save(post);
+
+        return PostResponse.builder()
+                .id(post.getId())
+                .title(post.getTitle())
+                .content(post.getContent())
+                .author(post.getAuthor())
+                .isConcept(post.isConcept())
+                .creationDate(post.getCreationDate())
+                .status(post.getStatus())
                 .build();
     }
 }

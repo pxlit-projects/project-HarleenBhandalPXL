@@ -32,6 +32,12 @@ spring:
             - Path=/post-service/api/posts/**
           filters:
             - RewritePath=/post-service/(?<path>.*), /$\{path}
+        - id: review-service
+          uri: lb://review-service
+          predicates:
+            - Path=/review-service/api/reviews/**
+          filters:
+            - RewritePath=/review-service/(?<path>.*), /$\{path}
   main:
     web-application-type: reactive
 

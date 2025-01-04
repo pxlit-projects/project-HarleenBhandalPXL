@@ -14,4 +14,6 @@ public interface IPostService {
     List<PostResponse> getAllPosts();
     Long savePostAsConcept(PostRequest postRequest);
     PostResponse getPostById(long id);
+    PostResponse approvePost(long id);
+    PostResponse rejectPost(long id);
 }

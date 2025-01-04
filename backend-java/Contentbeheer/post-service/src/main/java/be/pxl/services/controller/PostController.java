@@ -73,4 +73,24 @@ public class PostController {
         PostResponse postResponse = this.postService.getPostById(id);
         return ResponseEntity.ok(postResponse);
     }
+
+    @GetMapping("/{id}/approve")
+    public ResponseEntity<?> approvePost(@PathVariable long id, @RequestHeader("Role") String role) {
+        if (!role.equals("editor")) {
+            return ResponseEntity.status(403).body("Only editors can approve");
+        }
+
+        PostResponse postResponse = this.postService.approvePost(id);
+        return ResponseEntity.ok(postResponse);
+    }
+
+    @GetMapping("/{id}/reject")
+    public ResponseEntity<?> rejectPost(@PathVariable long id, @RequestHeader("Role") String role) {
+        if (!role.equals("editor")) {
+            return ResponseEntity.status(403).body("Only editors can reject");
+        }
+
+        PostResponse postResponse = this.postService.rejectPost(id);
+        return ResponseEntity.ok(postResponse);
+    }
 }
