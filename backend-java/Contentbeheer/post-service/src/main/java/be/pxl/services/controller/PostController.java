@@ -2,6 +2,8 @@ package be.pxl.services.controller;
 
 import be.pxl.services.dto.PostRequest;
 import be.pxl.services.dto.PostResponse;
+import be.pxl.services.dto.RejectedPostResponse;
+import be.pxl.services.dto.ReviewRequest;
 import be.pxl.services.services.IPostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -84,13 +86,13 @@ public class PostController {
         return ResponseEntity.ok(postResponse);
     }
 
-    @GetMapping("/{id}/reject")
-    public ResponseEntity<?> rejectPost(@PathVariable long id, @RequestHeader("Role") String role) {
+    @PutMapping("/{id}/reject")
+    public ResponseEntity<?> rejectPost(@PathVariable long id, @RequestHeader("Role") String role, @RequestBody ReviewRequest comment) {
         if (!role.equals("editor")) {
             return ResponseEntity.status(403).body("Only editors can reject");
         }
 
-        PostResponse postResponse = this.postService.rejectPost(id);
-        return ResponseEntity.ok(postResponse);
+        RejectedPostResponse rejectedPostResponse = this.postService.rejectPost(id, comment);
+        return ResponseEntity.ok(rejectedPostResponse);
     }
 }

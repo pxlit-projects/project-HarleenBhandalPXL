@@ -2,6 +2,8 @@ package be.pxl.services.services;
 
 import be.pxl.services.dto.PostRequest;
 import be.pxl.services.dto.PostResponse;
+import be.pxl.services.dto.RejectedPostResponse;
+import be.pxl.services.dto.ReviewRequest;
 
 import java.util.List;
 
@@ -15,5 +17,5 @@ public interface IPostService {
     Long savePostAsConcept(PostRequest postRequest);
     PostResponse getPostById(long id);
     PostResponse approvePost(long id);
-    PostResponse rejectPost(long id);
+    RejectedPostResponse rejectPost(long id, ReviewRequest comment);
 }

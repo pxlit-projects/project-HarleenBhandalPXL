@@ -2,6 +2,8 @@ package be.pxl.services.services;
 
 import be.pxl.services.client.PostClient;
 import be.pxl.services.domain.dto.PostResponse;
+import be.pxl.services.domain.dto.RejectedPostResponse;
+import be.pxl.services.domain.dto.ReviewRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +18,7 @@ public class ReviewService implements IReviewService {
     }
 
     @Override
-    public PostResponse rejectPost(long id, String role) {
-        return postClient.rejectPost(id, role);
+    public RejectedPostResponse rejectPost(long id, String role, ReviewRequest reviewRequest) {
+        return postClient.rejectPost(id, role, reviewRequest);
     }
 }

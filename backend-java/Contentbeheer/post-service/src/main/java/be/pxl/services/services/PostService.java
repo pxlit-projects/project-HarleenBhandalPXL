@@ -4,6 +4,8 @@ import be.pxl.services.domain.Post;
 import be.pxl.services.domain.enums.PostStatus;
 import be.pxl.services.dto.PostRequest;
 import be.pxl.services.dto.PostResponse;
+import be.pxl.services.dto.RejectedPostResponse;
+import be.pxl.services.dto.ReviewRequest;
 import be.pxl.services.exception.NotFoundException;
 import be.pxl.services.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
@@ -161,13 +163,23 @@ public class PostService implements IPostService {
     }
 
     @Override
-    public PostResponse rejectPost(long id) {
+    public RejectedPostResponse rejectPost(long id, ReviewRequest comment) {
         Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
 
         post.setStatus(PostStatus.REJECTED);
         postRepository.save(post);
 
-        return PostResponse.builder()
+        String rejectionReason = comment.getComment();
+
+        if (comment.getAuthor() == null || comment.getAuthor().isEmpty()) {
+            throw new IllegalArgumentException("Author is required");
+        }
+
+        if (comment.getComment() == null || comment.getComment().isEmpty()) {
+            rejectionReason = "No reason provided";
+        }
+
+        return RejectedPostResponse.builder()
                 .id(post.getId())
                 .title(post.getTitle())
                 .content(post.getContent())
@@ -175,6 +187,8 @@ public class PostService implements IPostService {
                 .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
                 .status(post.getStatus())
+                .rejectionReason(rejectionReason)
+                .rejectedBy(comment.getAuthor())
                 .build();
     }
 }
