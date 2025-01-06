@@ -9,15 +9,19 @@ import be.pxl.services.dto.ReviewRequest;
 import be.pxl.services.exception.NotFoundException;
 import be.pxl.services.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.logging.Logger;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class PostService implements IPostService {
     private final PostRepository postRepository;
+    private final Logger logger = Logger.getLogger(PostService.class.getName());
 
     @Override
     public Long createPost(PostRequest postRequest) {
@@ -35,6 +39,9 @@ public class PostService implements IPostService {
                 .build();
 
         this.postRepository.save(post);
+
+        logger.info("Post created with id: " + post.getId());
+
         return post.getId();
     }
 
@@ -56,6 +63,8 @@ public class PostService implements IPostService {
         post.setAuthor(postRequest.getAuthor());
 
         postRepository.save(post);
+
+        logger.info("Post updated with id: " + post.getId());
 
         return PostResponse.builder()
                 .title(post.getTitle())
@@ -126,6 +135,8 @@ public class PostService implements IPostService {
                 .status(PostStatus.PENDING)
                 .build();
 
+        logger.info("Post saved as concept with id: " + post.getId() + " by " + post.getAuthor());
+
         this.postRepository.save(post);
         return post.getId();
     }
@@ -150,6 +161,8 @@ public class PostService implements IPostService {
 
         post.setStatus(PostStatus.APPROVED);
         postRepository.save(post);
+
+        logger.info("Post approved with id: " + post.getId());
 
         return PostResponse.builder()
                 .id(post.getId())
@@ -178,6 +191,8 @@ public class PostService implements IPostService {
         if (comment.getComment() == null || comment.getComment().isEmpty()) {
             rejectionReason = "No reason provided";
         }
+
+        logger.info("Post rejected with id: " + post.getId() + " by " + comment.getAuthor());
 
         return RejectedPostResponse.builder()
                 .id(post.getId())

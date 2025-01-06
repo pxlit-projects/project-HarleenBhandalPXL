@@ -54,7 +54,7 @@ export class CreatePostComponent {
     this.postService.savePostAsConcept(post).subscribe({
       next: (response) => {
         console.log('Post saved as concept successfully', response);
-        this.router.navigate(['/posts']);
+        this.router.navigate(['/concepts']);
       },
       error: (error) => {
         console.error('Error saving post as concept', error);
