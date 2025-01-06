@@ -3,3 +3,7 @@
 2025-01-06T20:17:53.840+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
 2025-01-06T20:18:03.102+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 12.053 seconds (process running for 13.392)
 2025-01-06T20:22:03.089+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Post created with id: 702
+2025-01-06T20:32:05.075+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 23.0.1 with PID 48636 (C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service\target\classes started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer)
+2025-01-06T20:32:05.078+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-06T20:32:05.079+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-06T20:32:14.121+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 11.865 seconds (process running for 13.264)
