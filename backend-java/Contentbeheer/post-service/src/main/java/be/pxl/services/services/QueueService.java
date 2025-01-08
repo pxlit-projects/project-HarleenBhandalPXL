@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class QueueService {
     @RabbitListener(queues = "myQueue")
     public void listen(String in) {
-        System.out.println("Message read from myQueue : " + in);
+        System.out.println("Message received in post-service from myQueue : " + in);
     }
 }
 
