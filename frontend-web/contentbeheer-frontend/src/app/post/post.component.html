@@ -1,10 +1,11 @@
+<app-filter (filterChanged)="handleFilter($event)"></app-filter>
 <div class="w-5/6 mx-auto mt-10">
-@for (post of posts; track post.id) {
+@for (post of filteredData; track post.id) {
   <div (click)="navigateToPost(post.id)" class="bg-gray-100 shadow-md rounded-lg p-6 mb-4 relative">
     <h2 class="text-2xl font-bold mb-2">{{ post.title }}</h2>
     <p class="text-gray-700 mb-4">{{ post.content }}</p>
     <p class="text-sm text-gray-500"><strong>Author:</strong> {{ post.author }}</p>
-    <p class="text-sm text-gray-500"><strong>Creation Date:</strong> {{ post.creationDate | date: 'medium' }}</p>
+    <p class="text-sm text-gray-500"><strong>Creation Date:</strong> {{ post.creationDate | date: 'dd/MM/yyyy' }}</p>
     @if (authService.getRole() === 'editor') {
       <div class="absolute top-2 right-2">
         <button mat-icon-button [routerLink]="['/posts', post.id, 'edit']" aria-label="Edit post">
