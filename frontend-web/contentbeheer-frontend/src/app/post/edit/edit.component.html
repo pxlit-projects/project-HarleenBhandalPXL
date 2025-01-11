@@ -1,18 +1,20 @@
-<div class="h-screen flex justify-center items-center">
-  <div class="flex flex-col items-center w-4/5">
-    <mat-form-field class="w-full">
-      <mat-label>Title</mat-label>
-      <input matInput [(ngModel)]="title" name="title">
-    </mat-form-field>
-    <mat-form-field class="w-full">
-      <mat-label>Content</mat-label>
-      <textarea matInput [(ngModel)]="content" name="content"></textarea>
-    </mat-form-field>
-    <mat-form-field class="w-full">
-      <mat-label>Author</mat-label>
-      <input matInput [(ngModel)]="author" name="author">
-    </mat-form-field>
-    <button mat-raised-button (click)="editPost()">Save Changes</button>
-    <button mat-raised-button [routerLink]="['/posts']">Cancel</button>
-  </div>
+<div class="h-screen flex justify-center items-center w-4/5 mx-auto">
+  <form #editForm="ngForm" (ngSubmit)="onSubmit(editForm)" class="w-full">
+    <div class="flex flex-col items-center">
+      <mat-form-field class="w-full">
+        <mat-label>Title</mat-label>
+        <input matInput [(ngModel)]="title" name="title" required>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <mat-label>Content</mat-label>
+        <textarea matInput [(ngModel)]="content" name="content" required></textarea>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <mat-label>Author</mat-label>
+        <input matInput [(ngModel)]="author" name="author" required>
+      </mat-form-field>
+      <button mat-raised-button type="submit" class="mb-3">Save Changes</button>
+      <button mat-raised-button [routerLink]="['/posts']">Cancel</button>
+    </div>
+  </form>
 </div>

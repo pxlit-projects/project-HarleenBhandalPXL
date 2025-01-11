@@ -29,8 +29,17 @@ export class EditComponent {
   content: string = '';
   author: string = '';
   postId: number = -1;
+  errorMessage: string = '';
 
   constructor() {}
+
+  onSubmit(form: any): void {
+    if (form.valid) {
+      this.editPost();
+    } else {
+      this.errorMessage = 'Form is invalid. Please fill out all required fields.';
+    }
+  }
 
   ngOnInit(): void {
     this.postId = this.route.snapshot.params['id'];

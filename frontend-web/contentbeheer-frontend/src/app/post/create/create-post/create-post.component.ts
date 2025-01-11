@@ -25,10 +25,21 @@ export class CreatePostComponent {
   title: string = '';
   content: string = '';
   author: string = '';
+  errorMessage: string = '';
 
   constructor() {}
 
+  onSubmit(form: any): void {
+    if(form.valid) {
+      this.createPost();
+    }
+    else {
+      this.errorMessage = 'Form is invalid. Please fill out all required fields.';
+    }
+  }
+
   createPost(): void {
+    this.errorMessage = '';
     const post = {
       title: this.title,
       content: this.content,
@@ -46,6 +57,7 @@ export class CreatePostComponent {
   }
 
   savePostAsConcept(): void {
+    this.errorMessage = '';
     const post = {
       title: this.title,
       content: this.content,
@@ -61,4 +73,6 @@ export class CreatePostComponent {
       }
     });
   }
+
+  protected readonly onsubmit = onsubmit;
 }

@@ -29,10 +29,12 @@ export class FilterComponent {
   constructor() {}
 
   onSubmit(form: any): void {
-    this.filter.author = this.filter.author.trim().toLowerCase();
-    this.filter.content = this.filter.content.trim().toLowerCase();
-    this.filter.date = this.filter.date ? new Date(this.filter.date) : undefined;
+    if (form.valid) {
+      this.filter.author = this.filter.author.trim().toLowerCase();
+      this.filter.content = this.filter.content.trim().toLowerCase();
+      this.filter.date = this.filter.date ? new Date(this.filter.date) : undefined;
 
-    this.filterChanged.emit(this.filter);
+      this.filterChanged.emit(this.filter);
+    }
   }
 }
