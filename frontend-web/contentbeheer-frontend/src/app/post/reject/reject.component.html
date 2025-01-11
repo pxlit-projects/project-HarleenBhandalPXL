@@ -1,0 +1,18 @@
+<div class="h-screen flex justify-center items-center w-4/5 mx-auto">
+  <form #rejectForm="ngForm" (ngSubmit)="onSubmit(rejectForm)" class="w-full">
+    <div class="flex flex-col items-center">
+      <mat-form-field class="w-full">
+        <mat-label>Reason</mat-label>
+        <textarea matInput [(ngModel)]="reason" name="reason"></textarea>
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <mat-label>Author</mat-label>
+        <input matInput [(ngModel)]="author" name="author" required>
+      </mat-form-field>
+      <button mat-raised-button type="submit">Reject</button>
+      @if (errorMessage) {
+        <p class="text-red-500 font-bold" >{{ errorMessage }}</p>
+      }
+    </div>
+  </form>
+</div>

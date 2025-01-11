@@ -1,14 +1,13 @@
 import {Component, inject} from '@angular/core';
 import {DatePipe} from "@angular/common";
-import {Post} from "../../models/post.model";
-import {PostService} from "../../services/post/post.service";
-import {AuthService} from "../../services/auth/auth.service";
 import {MatIcon} from "@angular/material/icon";
 import {MatIconButton} from "@angular/material/button";
+import {PostService} from "../../../services/post/post.service";
+import {Post} from "../../../models/post.model";
 import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-concept',
+  selector: 'app-rejected',
   standalone: true,
   imports: [
     DatePipe,
@@ -16,29 +15,29 @@ import {RouterLink} from "@angular/router";
     MatIconButton,
     RouterLink
   ],
-  templateUrl: './concept.component.html',
-  styleUrl: './concept.component.css'
+  templateUrl: './rejected.component.html',
+  styleUrl: './rejected.component.css'
 })
-export class ConceptComponent {
-  conceptPosts: Post[] = [];
+export class RejectedComponent {
+  rejectedPosts: Post[] = [];
+
   postService: PostService = inject(PostService);
-  authService: AuthService = inject(AuthService);
 
   constructor() {}
 
   ngOnInit() {
-    this.getConceptPosts();
+    this.getRejectedPosts();
   }
 
-  getConceptPosts(): void {
-    this.postService.getConceptPosts().subscribe(posts => {
-      this.conceptPosts = posts;
+  getRejectedPosts(): void {
+    this.postService.getRejectedPosts().subscribe(posts => {
+      this.rejectedPosts = posts;
     });
   }
 
   updateToPending(id: number | undefined): void {
     this.postService.updateToPending(id).subscribe(() => {
-      this.getConceptPosts();
+      this.getRejectedPosts();
     });
   }
 }

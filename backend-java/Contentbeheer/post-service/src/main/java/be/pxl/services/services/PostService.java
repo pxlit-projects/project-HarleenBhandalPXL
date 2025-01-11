@@ -34,7 +34,6 @@ public class PostService implements IPostService {
                 .content(postRequest.getContent())
                 .author(postRequest.getAuthor())
                 .creationDate(LocalDateTime.now())
-                .isConcept(false)
                 .status(PostStatus.PENDING)
                 .build();
 
@@ -70,7 +69,6 @@ public class PostService implements IPostService {
                 .title(post.getTitle())
                 .content(post.getContent())
                 .author(post.getAuthor())
-                .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
                 .status(post.getStatus())
                 .build();
@@ -79,13 +77,12 @@ public class PostService implements IPostService {
     @Override
     public List<PostResponse> getPublishedPosts() {
         return postRepository.findAll().stream()
-                .filter(post -> !post.isConcept())
+                .filter(post -> post.getStatus() == PostStatus.APPROVED)
                 .map(post -> PostResponse.builder()
                         .id(post.getId())
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
-                        .isConcept(post.isConcept())
                         .creationDate(post.getCreationDate())
                         .status(post.getStatus())
                         .build()).toList();
@@ -94,13 +91,26 @@ public class PostService implements IPostService {
     @Override
     public List<PostResponse> getConceptPosts() {
         return postRepository.findAll().stream()
-                .filter(Post::isConcept)
+                .filter(p -> p.getStatus() == PostStatus.CONCEPT)
                 .map(post -> PostResponse.builder()
                         .id(post.getId())
                         .title(post.getTitle())
                         .content(post.getContent())
                         .author(post.getAuthor())
-                        .isConcept(post.isConcept())
+                        .creationDate(post.getCreationDate())
+                        .status(post.getStatus())
+                        .build()).toList();
+    }
+
+    @Override
+    public List<PostResponse> getPendingPosts() {
+        return postRepository.findAll().stream()
+                .filter(p -> p.getStatus() == PostStatus.PENDING)
+                .map(post -> PostResponse.builder()
+                        .id(post.getId())
+                        .title(post.getTitle())
+                        .content(post.getContent())
+                        .author(post.getAuthor())
                         .creationDate(post.getCreationDate())
                         .status(post.getStatus())
                         .build()).toList();
@@ -115,7 +125,20 @@ public class PostService implements IPostService {
                         .content(post.getContent())
                         .author(post.getAuthor())
                         .creationDate(post.getCreationDate())
-                        .isConcept(post.isConcept())
+                        .status(post.getStatus())
+                        .build()).toList();
+    }
+
+    @Override
+    public List<PostResponse> getRejectedPosts() {
+        return postRepository.findAll().stream()
+                .filter(p -> p.getStatus() == PostStatus.REJECTED)
+                .map(post -> PostResponse.builder()
+                        .id(post.getId())
+                        .title(post.getTitle())
+                        .content(post.getContent())
+                        .author(post.getAuthor())
+                        .creationDate(post.getCreationDate())
                         .status(post.getStatus())
                         .build()).toList();
     }
@@ -131,14 +154,32 @@ public class PostService implements IPostService {
                 .content(postRequest.getContent())
                 .author(postRequest.getAuthor())
                 .creationDate(LocalDateTime.now())
-                .isConcept(true)
-                .status(PostStatus.PENDING)
+                .status(PostStatus.CONCEPT)
                 .build();
 
         logger.info("Post saved as concept with id: " + post.getId() + " by " + post.getAuthor());
 
         this.postRepository.save(post);
         return post.getId();
+    }
+
+    @Override
+    public PostResponse updatePostToPending(long id) {
+        Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
+
+        post.setStatus(PostStatus.PENDING);
+        postRepository.save(post);
+
+        logger.info("Post updated to pending with id: " + post.getId());
+
+        return PostResponse.builder()
+                .id(post.getId())
+                .title(post.getTitle())
+                .content(post.getContent())
+                .author(post.getAuthor())
+                .creationDate(post.getCreationDate())
+                .status(post.getStatus())
+                .build();
     }
 
     @Override
@@ -150,7 +191,7 @@ public class PostService implements IPostService {
                 .title(post.getTitle())
                 .content(post.getContent())
                 .author(post.getAuthor())
-                .isConcept(post.isConcept())
+                .status(post.getStatus())
                 .creationDate(post.getCreationDate())
                 .build();
     }
@@ -169,7 +210,6 @@ public class PostService implements IPostService {
                 .title(post.getTitle())
                 .content(post.getContent())
                 .author(post.getAuthor())
-                .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
                 .status(post.getStatus())
                 .build();
@@ -179,14 +219,14 @@ public class PostService implements IPostService {
     public RejectedPostResponse rejectPost(long id, ReviewRequest comment) {
         Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
 
+        if (comment.getAuthor() == null || comment.getAuthor().isEmpty()) {
+            throw new IllegalArgumentException("Author is required");
+        }
+
         post.setStatus(PostStatus.REJECTED);
         postRepository.save(post);
 
         String rejectionReason = comment.getComment();
-
-        if (comment.getAuthor() == null || comment.getAuthor().isEmpty()) {
-            throw new IllegalArgumentException("Author is required");
-        }
 
         if (comment.getComment() == null || comment.getComment().isEmpty()) {
             rejectionReason = "No reason provided";
@@ -199,7 +239,6 @@ public class PostService implements IPostService {
                 .title(post.getTitle())
                 .content(post.getContent())
                 .author(post.getAuthor())
-                .isConcept(post.isConcept())
                 .creationDate(post.getCreationDate())
                 .status(post.getStatus())
                 .rejectionReason(rejectionReason)

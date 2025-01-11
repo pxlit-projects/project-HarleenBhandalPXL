@@ -4,6 +4,8 @@
     @if (authService.getRole() === 'editor') {
       <a [routerLink]="['/create-post']" class="text-gray-300 hover:text-white mx-2">Create Post</a>
       <a [routerLink]="['/concepts']" class="text-gray-300 hover:text-white mx-2">Concepts</a>
+      <a [routerLink]="['/pending']" class="text-gray-300 hover:text-white mx-2">Pending</a>
+      <a [routerLink]="['/posts/rejected']" class="text-gray-300 hover:text-white mx-2">Rejected Posts</a>
     }
   </div>
   <div>

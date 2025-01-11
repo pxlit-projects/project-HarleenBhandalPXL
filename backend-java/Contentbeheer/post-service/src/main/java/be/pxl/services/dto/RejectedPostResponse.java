@@ -18,7 +18,6 @@ public class RejectedPostResponse {
     private String content;
     private String author;
     private LocalDateTime creationDate;
-    private boolean isConcept;
     private PostStatus status;
     private String rejectionReason;
     private String rejectedBy;

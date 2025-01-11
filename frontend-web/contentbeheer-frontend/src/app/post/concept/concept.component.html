@@ -10,6 +10,9 @@
         <button mat-icon-button [routerLink]="['/posts', post.id, 'edit']" aria-label="Edit post">
           <mat-icon fontIcon="edit"/>
         </button>
+        <button mat-icon-button (click)="updateToPending(post.id)" aria-label="Send to review">
+          <mat-icon fontIcon="check"/>
+        </button>
       </div>
     }
   </div>

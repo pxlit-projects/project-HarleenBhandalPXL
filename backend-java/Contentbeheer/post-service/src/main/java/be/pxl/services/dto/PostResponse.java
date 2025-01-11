@@ -18,6 +18,5 @@ public class PostResponse {
     private String content;
     private String author;
     private LocalDateTime creationDate;
-    private boolean isConcept;
     private PostStatus status;
 }

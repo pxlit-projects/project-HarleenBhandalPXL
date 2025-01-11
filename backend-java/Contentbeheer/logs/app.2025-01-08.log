@@ -1,0 +1,7 @@
+2025-01-08T21:38:15.437+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 23.0.1 with PID 54868 (C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service\target\classes started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer)
+2025-01-08T21:38:15.447+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-08T21:38:15.448+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:38:24.182+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 11.603 seconds (process running for 12.978)
+2025-01-08T21:39:55.099+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Post rejected with id: 652 by Test
+2025-01-08T21:41:07.675+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Post rejected with id: 652 by Test
+2025-01-08T21:43:21.661+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Post rejected with id: 652 by Test

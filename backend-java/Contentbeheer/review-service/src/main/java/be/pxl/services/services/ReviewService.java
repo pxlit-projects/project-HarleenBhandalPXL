@@ -24,7 +24,7 @@ public class ReviewService implements IReviewService {
     @Override
     public RejectedPostResponse rejectPost(long id, String role, ReviewRequest reviewRequest) {
         RejectedPostResponse rejectedPostResponse = postClient.rejectPost(id, role, reviewRequest);
-        rabbitTemplate.convertAndSend("myQueue", "Post with id " + id + " has been rejected by " + reviewRequest.getAuthor());
+        rabbitTemplate.convertAndSend("myQueue", "Post with id " + id + " has been rejected by " + reviewRequest.getAuthor() + " for the reason: " + reviewRequest.getComment());
         return rejectedPostResponse;
     }
 }

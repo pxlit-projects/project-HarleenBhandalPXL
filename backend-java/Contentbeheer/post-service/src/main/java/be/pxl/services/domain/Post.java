@@ -23,6 +23,5 @@ public class Post {
     private String content;
     private String author;
     private LocalDateTime creationDate;
-    private boolean isConcept;
     private PostStatus status;
 }

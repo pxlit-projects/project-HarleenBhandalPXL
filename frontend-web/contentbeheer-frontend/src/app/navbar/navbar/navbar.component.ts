@@ -7,8 +7,7 @@ import {MatButton} from "@angular/material/button";
   selector: 'app-navbar',
   standalone: true,
   imports: [
-    RouterLink,
-    MatButton
+    RouterLink
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'

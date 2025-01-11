@@ -3,6 +3,9 @@ import {CreatePostComponent} from "./post/create/create-post/create-post.compone
 import {PostComponent} from "./post/post.component";
 import {ConceptComponent} from "./post/concept/concept.component";
 import {EditComponent} from "./post/edit/edit.component";
+import {PendingComponent} from "./post/pending/pending.component";
+import {RejectComponent} from "./post/reject/reject.component";
+import {RejectedComponent} from "./post/reject/rejected/rejected.component";
 
 export const routes: Routes = [
   {
@@ -20,6 +23,18 @@ export const routes: Routes = [
   {
     path: 'posts/:id/edit',
     component: EditComponent
+  },
+  {
+    path: 'pending',
+    component: PendingComponent
+  },
+  {
+    path: 'posts/:id/reject',
+    component: RejectComponent
+  },
+  {
+    path: 'posts/rejected',
+    component: RejectedComponent
   },
   {
     path: '',

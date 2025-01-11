@@ -13,8 +13,11 @@ public interface IPostService {
     PostResponse updatePost(long id, PostRequest postRequest);
     List<PostResponse> getPublishedPosts();
     List<PostResponse> getConceptPosts();
+    List<PostResponse> getPendingPosts();
     List<PostResponse> getAllPosts();
+    List<PostResponse> getRejectedPosts();
     Long savePostAsConcept(PostRequest postRequest);
+    PostResponse updatePostToPending(long id);
     PostResponse getPostById(long id);
     PostResponse approvePost(long id);
     RejectedPostResponse rejectPost(long id, ReviewRequest comment);

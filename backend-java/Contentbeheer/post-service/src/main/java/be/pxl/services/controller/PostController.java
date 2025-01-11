@@ -50,6 +50,18 @@ public class PostController {
         return ResponseEntity.ok(conceptPosts);
     }
 
+    @GetMapping("/pending")
+    public ResponseEntity<List<PostResponse>> getPendingPosts() {
+        List<PostResponse> pendingPosts = this.postService.getPendingPosts();
+        return ResponseEntity.ok(pendingPosts);
+    }
+
+    @GetMapping("/rejected")
+    public ResponseEntity<List<PostResponse>> getRejectedPosts() {
+        List<PostResponse> pendingPosts = this.postService.getRejectedPosts();
+        return ResponseEntity.ok(pendingPosts);
+    }
+
     @GetMapping("/all")
     public ResponseEntity<?> getAllPosts(@RequestHeader("Role") String role) {
         if (!role.equals("editor")) {
@@ -67,6 +79,16 @@ public class PostController {
         }
 
         PostResponse postResponse = this.postService.updatePost(id, postRequest);
+        return ResponseEntity.ok(postResponse);
+    }
+
+    @PutMapping("/{id}/pending")
+    public ResponseEntity<?> updatePostToPending(@PathVariable long id, @RequestHeader("Role") String role) {
+        if (!role.equals("editor")) {
+            return ResponseEntity.status(403).body("Only editors can update to pending");
+        }
+
+        PostResponse postResponse = this.postService.updatePostToPending(id);
         return ResponseEntity.ok(postResponse);
     }
 

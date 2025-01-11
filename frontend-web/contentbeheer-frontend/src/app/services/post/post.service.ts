@@ -22,6 +22,14 @@ export class PostService {
     return this.http.get<Post[]>(`${this.api}/concepts`);
   }
 
+  getPendingPosts(): Observable<Post[]> {
+    return this.http.get<Post[]>(`${this.api}/pending`);
+  }
+
+  getRejectedPosts(): Observable<Post[]> {
+    return this.http.get<Post[]>(`${this.api}/rejected`);
+  }
+
   createPost(post: Post): Observable<Post> {
     const headers = new HttpHeaders().set('Role', 'editor');
     return this.http.post<Post>(this.api, post, {headers});
@@ -39,5 +47,10 @@ export class PostService {
 
   getPost(id: number): Observable<Post> {
     return this.http.get<Post>(`${this.api}/${id}`);
+  }
+
+  updateToPending(id: number | undefined): Observable<Post> {
+    const headers = new HttpHeaders().set('Role', 'editor');
+    return this.http.put<Post>(`${this.api}/${id}/pending`, {}, {headers});
   }
 }
