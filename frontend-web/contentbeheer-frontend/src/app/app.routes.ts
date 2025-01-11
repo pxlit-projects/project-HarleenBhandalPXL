@@ -6,6 +6,7 @@ import {EditComponent} from "./post/edit/edit.component";
 import {PendingComponent} from "./post/pending/pending.component";
 import {RejectComponent} from "./post/reject/reject.component";
 import {RejectedComponent} from "./post/reject/rejected/rejected.component";
+import {PostDetailComponent} from "./post/post.detail/post.detail.component";
 
 export const routes: Routes = [
   {
@@ -35,6 +36,10 @@ export const routes: Routes = [
   {
     path: 'posts/rejected',
     component: RejectedComponent
+  },
+  {
+    path: 'posts/:id',
+    component: PostDetailComponent
   },
   {
     path: '',

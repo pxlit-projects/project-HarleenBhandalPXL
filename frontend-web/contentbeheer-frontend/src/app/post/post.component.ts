@@ -6,7 +6,7 @@ import {MatCardModule} from "@angular/material/card";
 import {DatePipe} from "@angular/common"; // DatePipe is om de datum te formateren
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
-import {RouterLink} from "@angular/router";
+import {Router, RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-post',
@@ -25,6 +25,7 @@ export class PostComponent implements OnInit{
   posts: Post[] = [];
   postService: PostService = inject(PostService);
   authService: AuthService = inject(AuthService);
+  router = inject(Router);
 
   constructor() {}
 
@@ -36,5 +37,9 @@ export class PostComponent implements OnInit{
     this.postService.getPublishedPosts().subscribe(posts => {
       this.posts = posts;
     });
+  }
+
+  navigateToPost(id: number | undefined): void {
+    this.router.navigate(['posts', id]);
   }
 }

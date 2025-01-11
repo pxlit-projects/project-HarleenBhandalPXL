@@ -16,12 +16,13 @@ import java.util.logging.Logger;
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class CommentService {
+public class CommentService implements ICommentService {
     private final CommentRepository commentRepository;
     private final Logger logger = Logger.getLogger(CommentService.class.getName());
 
+    @Override
     public CommentResponse createComment(CommentRequest commentRequest) {
-        if  (commentRequest.getPostId() == null || commentRequest.getContent().isEmpty() || commentRequest.getUserName().isEmpty()) {
+        if  (commentRequest.getPostId() == null || commentRequest.getContent() == null || commentRequest.getContent().isEmpty() || commentRequest.getUserName() == null || commentRequest.getUserName().isEmpty()) {
             throw new IllegalArgumentException("PostId, content and userName are required");
         }
 
@@ -43,11 +44,12 @@ public class CommentService {
                 .build();
     }
 
+    @Override
     public CommentResponse updateComment(long id, CommentUpdateRequest commentRequest) {
         Comment comment = commentRepository.findById(id).orElseThrow(() -> new NotFoundException("Comment not found"));
 
-        if  (commentRequest.getContent().isEmpty()) {
-            throw new IllegalArgumentException("PostId, content and username are required");
+        if  (commentRequest.getContent() == null || commentRequest.getContent().isEmpty()) {
+            throw new IllegalArgumentException("Content is required");
         }
 
         comment.setContent(commentRequest.getContent());
@@ -64,6 +66,7 @@ public class CommentService {
                 .build();
     }
 
+    @Override
     public void deleteComment(long id) {
         Comment comment = commentRepository.findById(id).orElseThrow(() -> new NotFoundException("Comment not found"));
 
@@ -72,6 +75,7 @@ public class CommentService {
         commentRepository.delete(comment);
     }
 
+    @Override
     public CommentResponse getCommentById(long id) {
         Comment comment = commentRepository.findById(id).orElseThrow(() -> new NotFoundException("Comment not found"));
 
@@ -83,6 +87,7 @@ public class CommentService {
                 .build();
     }
 
+    @Override
     public List<CommentResponse> getCommentsByPostId(long postId) {
         List<Comment> comments = commentRepository.findByPostId(postId).orElseThrow(() -> new NotFoundException("Comment not found"));
 
