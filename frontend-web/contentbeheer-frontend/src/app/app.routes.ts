@@ -7,6 +7,7 @@ import {PendingComponent} from "./post/pending/pending.component";
 import {RejectComponent} from "./post/reject/reject.component";
 import {RejectedComponent} from "./post/reject/rejected/rejected.component";
 import {PostDetailComponent} from "./post/post.detail/post.detail.component";
+import {CommentEditComponent} from "./post/comment/comment.edit/comment.edit.component";
 
 export const routes: Routes = [
   {
@@ -40,6 +41,10 @@ export const routes: Routes = [
   {
     path: 'posts/:id',
     component: PostDetailComponent
+  },
+  {
+    path: 'comment/:id/edit',
+    component: CommentEditComponent
   },
   {
     path: '',

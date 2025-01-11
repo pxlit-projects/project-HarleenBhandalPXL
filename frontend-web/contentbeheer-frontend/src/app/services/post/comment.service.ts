@@ -23,12 +23,12 @@ export class CommentService {
     return this.http.post<Comment>(this.api, comment);
   }
 
-  deleteComment(id: number): Observable<Comment> {
+  deleteComment(id: number | undefined): Observable<Comment> {
     return this.http.delete<Comment>(`${this.api}/${id}`);
   }
 
-  updateComment(id: number, comment: Comment): Observable<Comment> {
-    return this.http.put<Comment>(`${this.api}/${id}`, comment);
+  updateComment(id: number, comment: string | null | undefined): Observable<Comment> {
+    return this.http.put<Comment>(`${this.api}/${id}`, { content: comment });
   }
 
   getComment(id: number): Observable<Comment> {

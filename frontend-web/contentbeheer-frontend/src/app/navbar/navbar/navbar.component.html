@@ -9,6 +9,9 @@
     }
   </div>
   <div>
+    @if (authService.getRole() === 'user') {
+      <input [(ngModel)]="authService.user" (ngModelChange)="authService.setUser($event)" placeholder="Enter username" class="text-gray-300 mx-2 p-1 bg-gray-700 border border-gray-600 rounded">
+    }
     <button (click)="toggleRole()" class="text-gray-300 hover:text-white mx-2">
       Toggle Role (Current: {{ authService.getRole() }})
     </button>

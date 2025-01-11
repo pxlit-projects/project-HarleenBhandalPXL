@@ -58,17 +58,6 @@ export class EditComponent {
     } else {
       console.error('No id found in the URL');
     }
-
-    this.postService.getPost(this.postId).subscribe({
-      next: (post) => {
-        this.title = post.title;
-        this.content = post.content;
-        this.author = post.author;
-      },
-      error: (error) => {
-        console.error('Error fetching post', error);
-      }
-    });
   }
 
   editPost(): void {

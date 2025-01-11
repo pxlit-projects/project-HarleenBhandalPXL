@@ -7,13 +7,20 @@ export class AuthService {
   user: string | null = null;
   role: string | null = 'user';
   roleKey = 'userRole';
+  userKey = 'username';
 
   constructor() {
     this.role = localStorage.getItem(this.roleKey) || 'user';
+    if (this.role === 'user') {
+      this.user = localStorage.getItem(this.userKey);
+    }
   }
 
   setUser(user: string): void {
-    this.user = user;
+    if (this.role === 'user') {
+      this.user = user;
+      localStorage.setItem(this.userKey, user);
+    }
   }
 
   getUser(): string | null {
@@ -23,6 +30,10 @@ export class AuthService {
   setRole(role: string): void {
     this.role = role;
     localStorage.setItem(this.roleKey, role);
+    if (role !== 'user') {
+      localStorage.removeItem(this.userKey);
+      this.user = null;
+    }
   }
 
   getRole(): string | null {
@@ -33,10 +44,15 @@ export class AuthService {
     this.user = null;
     this.role = null;
     localStorage.removeItem(this.roleKey);
+    localStorage.removeItem(this.userKey);
   }
 
   toggleRole(): void {
     this.role = this.role === 'editor' ? 'user' : 'editor';
     localStorage.setItem(this.roleKey, this.role);
+    if (this.role === 'editor') {
+      localStorage.removeItem(this.userKey);
+      this.user = null;
+    }
   }
 }
