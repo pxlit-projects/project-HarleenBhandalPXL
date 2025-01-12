@@ -21,7 +21,7 @@ spring:
               - OPTIONS
             allowedHeaders:
               - "*"
-            allowCredentials: false
+            allowCredentials: true
       discovery:
         locator:
           enabled: true
@@ -44,6 +44,10 @@ spring:
             - Path=/comment-service/api/comments/**
           filters:
             - RewritePath=/comment-service/(?<path>.*), /$\{path}
+        - id: websocket-service
+          uri: lb://post-service
+          predicates:
+            - Path=/ws/**
   main:
     web-application-type: reactive
 

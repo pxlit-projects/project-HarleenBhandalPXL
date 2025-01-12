@@ -8,6 +8,7 @@ import {RejectComponent} from "./post/reject/reject.component";
 import {RejectedComponent} from "./post/reject/rejected/rejected.component";
 import {PostDetailComponent} from "./post/post.detail/post.detail.component";
 import {CommentEditComponent} from "./post/comment/comment.edit/comment.edit.component";
+import {NotificationComponent} from "./notification/notification/notification.component";
 
 export const routes: Routes = [
   {
@@ -45,6 +46,10 @@ export const routes: Routes = [
   {
     path: 'comment/:id/edit',
     component: CommentEditComponent
+  },
+  {
+    path: 'notifications',
+    component: NotificationComponent
   },
   {
     path: '',
