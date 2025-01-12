@@ -9,7 +9,6 @@ import java.util.List;
 
 public interface IPostService {
     Long createPost(PostRequest postRequest);
-    void deletePost();
     PostResponse updatePost(long id, PostRequest postRequest);
     List<PostResponse> getPublishedPosts();
     List<PostResponse> getConceptPosts();

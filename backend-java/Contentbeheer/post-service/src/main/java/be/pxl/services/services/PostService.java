@@ -25,7 +25,7 @@ public class PostService implements IPostService {
 
     @Override
     public Long createPost(PostRequest postRequest) {
-        if  (postRequest.getTitle().isEmpty() || postRequest.getContent().isEmpty() || postRequest.getAuthor().isEmpty()) {
+        if  (postRequest.getTitle() == null || postRequest.getTitle().isEmpty() || postRequest.getContent() == null || postRequest.getContent().isEmpty() || postRequest.getAuthor() == null|| postRequest.getAuthor().isEmpty()) {
             throw new IllegalArgumentException("Title, content and author are required");
         }
 
@@ -45,15 +45,10 @@ public class PostService implements IPostService {
     }
 
     @Override
-    public void deletePost() {
-
-    }
-
-    @Override
     public PostResponse updatePost(long id, PostRequest postRequest) {
         Post post = postRepository.findById(id).orElseThrow(() -> new NotFoundException("Post not found"));
 
-        if  (postRequest.getTitle().isEmpty() || postRequest.getContent().isEmpty() || postRequest.getAuthor().isEmpty()) {
+        if  (postRequest.getTitle() == null || postRequest.getTitle().isEmpty() || postRequest.getContent() == null || postRequest.getContent().isEmpty() || postRequest.getAuthor() == null|| postRequest.getAuthor().isEmpty()) {
             throw new IllegalArgumentException("Title, content and author are required");
         }
 
@@ -145,7 +140,7 @@ public class PostService implements IPostService {
 
     @Override
     public Long savePostAsConcept(PostRequest postRequest) {
-        if  (postRequest.getTitle().isEmpty() || postRequest.getContent().isEmpty() || postRequest.getAuthor().isEmpty()) {
+        if  (postRequest.getTitle() == null || postRequest.getTitle().isEmpty() || postRequest.getContent() == null || postRequest.getContent().isEmpty() || postRequest.getAuthor() == null|| postRequest.getAuthor().isEmpty()) {
             throw new IllegalArgumentException("Title, content and author are required");
         }
 
