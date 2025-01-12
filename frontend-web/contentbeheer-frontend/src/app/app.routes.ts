@@ -9,6 +9,7 @@ import {RejectedComponent} from "./post/reject/rejected/rejected.component";
 import {PostDetailComponent} from "./post/post.detail/post.detail.component";
 import {CommentEditComponent} from "./post/comment/comment.edit/comment.edit.component";
 import {NotificationComponent} from "./notification/notification/notification.component";
+import {Error404Component} from "./error/error.404/error.404.component";
 
 export const routes: Routes = [
   {
@@ -56,4 +57,8 @@ export const routes: Routes = [
     redirectTo: 'posts',
     pathMatch: 'full'
   },
+  {
+    path: '**',
+    component: Error404Component
+  }
 ];
