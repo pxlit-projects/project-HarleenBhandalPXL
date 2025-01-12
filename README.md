@@ -19,7 +19,7 @@ Each folder contains its own specific `.gitignore` file.
 :heavy_check_mark:_(COMMENT) Add setup instructions and provide some direction to run the whole  application: frontend to backend._
 
 - Make sure you have 3 Mysql Databases ready:  postservice_db, reviewservice_db, commentservice_db
-- Run docker-compose.yml
+- Run ```docker compose up -d```
 - Run microservices of backend in this order:
     1. ConfigServiceApplication
     2. DiscoveryApplication
