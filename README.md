@@ -17,3 +17,14 @@ Each folder contains its own specific `.gitignore` file.
 ## How to setup and run this application
 
 :heavy_check_mark:_(COMMENT) Add setup instructions and provide some direction to run the whole  application: frontend to backend._
+
+- Make sure you have 3 Mysql Databases ready:  postservice_db, reviewservice_db, commentservice_db
+- Run docker-compose.yml
+- Run microservices of backend in this order:
+    1. ConfigServiceApplication
+    2. DiscoveryApplication
+    3. GatewayServiceApplication
+    4. PostServiceApplication
+    5. ReviewServiceApplication
+    6. CommentServiceApplication
+- Go to ```http://localhost```
