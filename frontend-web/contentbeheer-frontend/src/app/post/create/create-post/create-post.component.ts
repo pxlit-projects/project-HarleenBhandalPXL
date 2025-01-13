@@ -52,6 +52,7 @@ export class CreatePostComponent {
       },
       error: (error) => {
         console.error('Error creating post', error);
+        this.errorMessage = 'Error creating post';
       }
     });
   }
@@ -70,6 +71,7 @@ export class CreatePostComponent {
       },
       error: (error) => {
         console.error('Error saving post as concept', error);
+        this.errorMessage = 'Error saving post as concept';
       }
     });
   }

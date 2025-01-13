@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RejectedComponent } from './rejected.component';
+import { provideHttpClient } from '@angular/common/http';
 
 describe('RejectedComponent', () => {
   let component: RejectedComponent;
@@ -8,9 +9,14 @@ describe('RejectedComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RejectedComponent]
+      imports: [
+        RejectedComponent,
+      ],
+      providers: [
+        provideHttpClient(),
+      ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(RejectedComponent);
     component = fixture.componentInstance;
