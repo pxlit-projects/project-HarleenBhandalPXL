@@ -1,0 +1,493 @@
+2025-01-12T20:16:28.559+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Starting PostTest using Java 23.0.1 with PID 46324 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:16:28.560+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest      - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:16:28.561+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:16:37.421+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Started PostTest in 11.103 seconds (process running for 58.45)
+2025-01-12T20:20:34.460+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Starting PostTest using Java 23.0.1 with PID 55444 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:20:34.463+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest      - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:20:34.464+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:20:45.656+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Started PostTest in 14.036 seconds (process running for 41.081)
+2025-01-12T20:26:03.635+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Starting PostTest using Java 23.0.1 with PID 53580 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:26:03.636+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest      - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:26:03.637+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:26:12.694+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Started PostTest in 11.334 seconds (process running for 48.868)
+2025-01-12T20:31:50.456+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Starting PostTest using Java 23.0.1 with PID 48652 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:31:50.457+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest      - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:31:50.458+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:31:59.203+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Started PostTest in 10.969 seconds (process running for 33.853)
+2025-01-12T20:36:14.097+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Starting PostTest using Java 23.0.1 with PID 57496 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:36:14.098+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest      - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:36:14.098+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:36:22.509+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest      - Started PostTest in 10.557 seconds (process running for 33.461)
+2025-01-12T20:36:23.443+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T20:39:19.760+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 52664 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:39:19.760+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:39:19.761+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:39:28.298+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.68 seconds (process running for 34.92)
+2025-01-12T20:43:31.663+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 27428 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:43:31.664+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:43:31.664+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:43:40.131+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.662 seconds (process running for 32.986)
+2025-01-12T20:43:41.124+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T20:48:43.133+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 26244 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:48:43.135+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:48:43.136+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:48:53.658+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.333 seconds (process running for 39.814)
+2025-01-12T20:48:54.775+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T20:48:55.140+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 3 by Test reviewer
+2025-01-12T20:48:55.296+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 4
+2025-01-12T20:56:32.224+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 19976 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:56:32.225+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:56:32.226+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:56:41.620+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 11.669 seconds (process running for 34.473)
+2025-01-12T20:58:13.132+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 27964 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T20:58:13.133+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T20:58:13.133+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T20:58:21.811+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.853 seconds (process running for 42.958)
+2025-01-12T20:58:22.756+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T20:58:23.016+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 3 by Test reviewer
+2025-01-12T20:58:23.092+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 4
+2025-01-12T21:03:38.531+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 51468 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:03:38.532+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:03:38.533+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:03:46.942+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.575 seconds (process running for 32.733)
+2025-01-12T21:03:47.905+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:03:48.259+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:03:48.343+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:03:48.360+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:03:48.426+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:03:48.524+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:06:14.822+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 49996 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:06:14.824+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:06:14.824+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:06:23.645+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.99 seconds (process running for 31.899)
+2025-01-12T21:06:24.759+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:06:25.000+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:06:25.105+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:06:25.140+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:06:25.210+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:06:25.356+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:08:41.394+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 58988 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:08:41.395+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:08:41.396+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:08:50.159+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.921 seconds (process running for 33.464)
+2025-01-12T21:08:51.332+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:08:51.583+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:08:51.686+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:08:51.726+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:08:51.796+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:08:51.927+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:08:53.773+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 58988 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:08:53.773+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:08:53.774+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:08:57.383+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.863 seconds (process running for 40.688)
+2025-01-12T21:08:57.455+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T21:15:47.709+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 46272 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:15:47.709+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:15:47.710+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:15:56.437+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.944 seconds (process running for 48.215)
+2025-01-12T21:15:57.606+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:15:57.975+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:15:58.149+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:15:58.199+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:15:58.317+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:15:58.524+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:16:26.130+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 46272 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:16:26.130+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:16:26.131+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:16:29.093+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.206 seconds (process running for 80.872)
+2025-01-12T21:16:29.217+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 2 by Test reviewer
+2025-01-12T21:16:29.300+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 3
+2025-01-12T21:16:29.373+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 4
+2025-01-12T21:16:29.421+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 5
+2025-01-12T21:16:31.239+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 46272 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:16:31.239+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:16:31.240+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:16:34.781+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.777 seconds (process running for 86.56)
+2025-01-12T21:16:34.851+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T21:23:08.658+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 58032 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:23:08.660+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:23:08.660+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:23:17.775+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 11.351 seconds (process running for 46.876)
+2025-01-12T21:23:18.925+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:23:19.263+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:23:19.420+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:23:19.463+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:23:19.568+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:23:19.835+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:23:48.942+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 58032 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:23:48.942+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:23:48.942+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:23:51.904+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.216 seconds (process running for 81.005)
+2025-01-12T21:23:52.047+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 2 by Test reviewer
+2025-01-12T21:23:52.125+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 3
+2025-01-12T21:23:52.205+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 4
+2025-01-12T21:23:52.269+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 5
+2025-01-12T21:23:54.148+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 58032 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:23:54.149+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:23:54.149+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:23:57.922+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 5.024 seconds (process running for 87.023)
+2025-01-12T21:23:58.006+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T21:23:58.315+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T21:31:16.680+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 48880 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:31:16.680+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:31:16.681+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:31:25.468+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 10.988 seconds (process running for 33.197)
+2025-01-12T21:31:26.654+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 3 by Test reviewer
+2025-01-12T21:31:26.701+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 4
+2025-01-12T21:31:26.751+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 5
+2025-01-12T21:31:26.838+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 7
+2025-01-12T21:31:26.867+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 8
+2025-01-12T21:34:08.559+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 6292 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:34:08.560+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:34:08.560+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:34:17.149+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.789 seconds (process running for 32.877)
+2025-01-12T21:34:18.256+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:34:18.510+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:34:18.626+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:34:18.657+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:34:18.729+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:34:18.887+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:34:33.418+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 6292 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:34:33.418+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:34:33.418+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:34:36.309+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.147 seconds (process running for 52.036)
+2025-01-12T21:34:36.451+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 3 by Test reviewer
+2025-01-12T21:34:36.496+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 4
+2025-01-12T21:34:36.542+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 5
+2025-01-12T21:34:36.620+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 7
+2025-01-12T21:34:36.645+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 8
+2025-01-12T21:34:38.509+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 6292 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:34:38.510+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:34:38.510+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:34:42.101+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.838 seconds (process running for 57.829)
+2025-01-12T21:34:42.171+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T21:34:42.312+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T21:38:39.165+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 60132 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:38:39.166+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:38:39.167+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:38:47.873+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 10.908 seconds (process running for 32.439)
+2025-01-12T21:38:48.996+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T21:38:49.235+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T21:38:49.343+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T21:38:49.375+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T21:38:49.452+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T21:38:49.583+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T21:39:55.406+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 60132 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:39:55.406+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:39:55.406+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:39:58.262+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.149 seconds (process running for 67.904)
+2025-01-12T21:39:58.396+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 3 by Test reviewer
+2025-01-12T21:39:58.446+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 4
+2025-01-12T21:39:58.494+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 5
+2025-01-12T21:39:58.576+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 7
+2025-01-12T21:39:58.602+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 8
+2025-01-12T21:40:00.382+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 60132 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T21:40:00.382+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T21:40:00.382+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T21:40:03.980+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.839 seconds (process running for 73.622)
+2025-01-12T21:40:04.054+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T21:40:04.206+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T22:50:28.315+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 6392 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:50:28.317+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:50:28.317+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:50:39.035+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.619 seconds (process running for 40.082)
+2025-01-12T22:50:40.381+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T22:50:40.658+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T22:50:40.769+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T22:50:40.803+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T22:50:40.879+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T22:50:41.020+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T22:51:02.232+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 6392 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:51:02.233+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:51:02.233+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:51:05.259+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.301 seconds (process running for 66.306)
+2025-01-12T22:51:05.394+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 3 by Test reviewer
+2025-01-12T22:51:05.443+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 4
+2025-01-12T22:51:05.496+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 5
+2025-01-12T22:51:05.590+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 7
+2025-01-12T22:51:05.623+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 8
+2025-01-12T22:51:07.483+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 6392 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:51:07.483+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:51:07.483+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:51:11.239+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 5.007 seconds (process running for 72.286)
+2025-01-12T22:51:11.345+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T22:51:11.505+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T22:55:09.741+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 52660 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:55:09.743+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:55:09.744+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:55:20.267+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.367 seconds (process running for 37.51)
+2025-01-12T22:55:21.620+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T22:55:21.891+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T22:55:22.002+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T22:55:22.035+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T22:55:22.106+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T22:55:22.249+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T22:55:37.907+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 52660 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:55:37.907+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:55:37.907+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:55:40.788+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.133 seconds (process running for 58.032)
+2025-01-12T22:55:40.957+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T22:55:41.038+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 6
+2025-01-12T22:55:41.084+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T22:55:41.127+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 8
+2025-01-12T22:55:41.215+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 10
+2025-01-12T22:55:41.235+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T22:55:41.320+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 13
+2025-01-12T22:55:43.115+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 52660 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:55:43.115+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:55:43.116+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:55:46.818+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.96 seconds (process running for 64.062)
+2025-01-12T22:55:46.924+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T22:55:47.085+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T22:57:37.194+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 48628 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:57:37.197+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:57:37.197+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:57:47.682+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.424 seconds (process running for 47.107)
+2025-01-12T22:57:49.014+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T22:57:49.390+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T22:57:49.591+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T22:57:49.634+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T22:57:49.745+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T22:57:49.954+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T22:59:09.941+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 48628 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:59:09.941+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:59:09.941+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:59:12.892+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.219 seconds (process running for 132.316)
+2025-01-12T22:59:13.146+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T22:59:13.275+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 6
+2025-01-12T22:59:13.358+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T22:59:13.440+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 8
+2025-01-12T22:59:13.579+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 10
+2025-01-12T22:59:13.605+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T22:59:13.736+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 13
+2025-01-12T22:59:15.753+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 48628 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T22:59:15.754+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T22:59:15.754+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T22:59:19.381+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.914 seconds (process running for 138.806)
+2025-01-12T22:59:19.477+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T22:59:19.634+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:01:57.439+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 25028 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:01:57.441+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:01:57.442+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:02:07.779+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.285 seconds (process running for 51.446)
+2025-01-12T23:02:09.104+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:02:09.484+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:02:09.651+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:02:09.705+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:02:09.829+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:02:10.029+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:02:38.332+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 25028 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:02:38.332+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:02:38.332+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:02:41.232+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.162 seconds (process running for 84.899)
+2025-01-12T23:02:41.487+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T23:02:41.624+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 6
+2025-01-12T23:02:41.704+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:02:41.798+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 8
+2025-01-12T23:02:41.929+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 10
+2025-01-12T23:02:41.956+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:02:42.081+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 13
+2025-01-12T23:02:43.943+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 25028 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:02:43.943+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:02:43.943+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:02:47.553+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.855 seconds (process running for 91.22)
+2025-01-12T23:02:47.685+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:02:47.845+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:05:13.732+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 58540 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:05:13.733+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:05:13.734+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:05:24.172+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.221 seconds (process running for 37.452)
+2025-01-12T23:05:25.491+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:05:25.783+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:05:25.904+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:05:25.942+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:05:26.023+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:05:26.171+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:05:45.845+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 58540 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:05:45.845+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:05:45.845+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:05:48.807+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.211 seconds (process running for 62.087)
+2025-01-12T23:05:48.979+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T23:05:49.071+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 6
+2025-01-12T23:05:49.120+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:05:49.187+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 8
+2025-01-12T23:05:49.338+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 11
+2025-01-12T23:05:49.357+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:05:49.440+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 14
+2025-01-12T23:05:51.325+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 58540 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:05:51.326+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:05:51.326+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:05:55.269+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 5.224 seconds (process running for 68.549)
+2025-01-12T23:05:55.435+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:05:55.722+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:07:24.928+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 47928 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:07:24.930+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:07:24.932+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:07:35.416+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.404 seconds (process running for 38.701)
+2025-01-12T23:07:36.731+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:07:37.011+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:07:37.122+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:07:37.157+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:07:37.241+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:07:37.383+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:07:53.741+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 47928 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:07:53.741+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:07:53.741+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:07:56.629+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.136 seconds (process running for 59.913)
+2025-01-12T23:07:56.792+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T23:07:56.918+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 8
+2025-01-12T23:07:56.964+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 9
+2025-01-12T23:07:57.027+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 10
+2025-01-12T23:07:57.204+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 13
+2025-01-12T23:07:57.222+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:07:57.304+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 16
+2025-01-12T23:07:59.147+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 47928 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:07:59.147+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:07:59.148+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:08:02.830+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.921 seconds (process running for 66.114)
+2025-01-12T23:08:02.943+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:08:03.124+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:11:22.318+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 14576 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:11:22.320+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:11:22.321+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:11:32.880+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.434 seconds (process running for 37.829)
+2025-01-12T23:11:34.224+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:11:34.503+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:11:34.616+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:11:34.650+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:11:34.725+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:11:34.860+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:11:50.255+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 14576 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:11:50.255+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:11:50.256+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:11:53.191+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.192 seconds (process running for 58.14)
+2025-01-12T23:11:53.361+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T23:11:53.575+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 8
+2025-01-12T23:11:53.619+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 9
+2025-01-12T23:11:53.681+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 10
+2025-01-12T23:11:53.837+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 13
+2025-01-12T23:11:53.855+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:11:53.930+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 16
+2025-01-12T23:11:55.827+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 14576 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:11:55.828+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:11:55.828+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:11:59.537+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.952 seconds (process running for 64.486)
+2025-01-12T23:11:59.653+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:11:59.819+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:14:12.773+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 54884 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:14:12.774+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:14:12.776+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:14:27.974+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 19.318 seconds (process running for 49.219)
+2025-01-12T23:14:29.990+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:14:30.392+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:14:30.544+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:14:30.592+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:14:30.709+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:14:30.921+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:14:51.255+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 54884 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:14:51.255+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:14:51.255+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:14:54.838+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.996 seconds (process running for 76.083)
+2025-01-12T23:14:55.069+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 4 by Test reviewer
+2025-01-12T23:14:55.260+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 8
+2025-01-12T23:14:55.318+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 9
+2025-01-12T23:14:55.414+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 10
+2025-01-12T23:14:55.665+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 13
+2025-01-12T23:14:55.689+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:14:55.803+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 16
+2025-01-12T23:14:57.881+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 54884 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:14:57.881+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:14:57.882+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:15:02.377+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 5.92 seconds (process running for 83.623)
+2025-01-12T23:15:02.592+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:15:02.847+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:17:02.548+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 58348 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:17:02.551+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:17:02.552+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:17:13.061+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.419 seconds (process running for 39.999)
+2025-01-12T23:17:14.412+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:17:14.777+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:17:14.980+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:17:15.021+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:17:15.137+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:17:15.344+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:17:42.531+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 58348 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:17:42.531+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:17:42.531+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:17:45.530+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.282 seconds (process running for 72.468)
+2025-01-12T23:17:45.823+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:17:46.050+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 9
+2025-01-12T23:17:46.124+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 10
+2025-01-12T23:17:46.219+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 11
+2025-01-12T23:17:46.455+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 14
+2025-01-12T23:17:46.537+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 15 by Test reviewer
+2025-01-12T23:17:46.567+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:17:46.692+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 18
+2025-01-12T23:17:46.771+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 19
+2025-01-12T23:17:46.876+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 20 by Test reviewer
+2025-01-12T23:17:48.791+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 58348 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:17:48.792+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:17:48.792+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:17:52.430+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.882 seconds (process running for 79.368)
+2025-01-12T23:17:52.527+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:17:52.695+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:19:47.112+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 44980 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:19:47.114+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:19:47.115+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:19:57.708+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.411 seconds (process running for 48.323)
+2025-01-12T23:19:59.006+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:19:59.277+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:19:59.387+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:19:59.418+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:19:59.491+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:19:59.651+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:20:14.936+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 44980 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:20:14.936+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:20:14.936+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:20:17.853+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.18 seconds (process running for 68.468)
+2025-01-12T23:20:18.053+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:20:18.177+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 9
+2025-01-12T23:20:18.223+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 10
+2025-01-12T23:20:18.295+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 11
+2025-01-12T23:20:18.469+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 14
+2025-01-12T23:20:18.517+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 15 by Test reviewer
+2025-01-12T23:20:18.534+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:20:18.628+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 18
+2025-01-12T23:20:18.679+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 19
+2025-01-12T23:20:18.754+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 20 by Test reviewer
+2025-01-12T23:20:20.560+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 44980 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:20:20.561+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:20:20.561+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:20:24.164+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.861 seconds (process running for 74.779)
+2025-01-12T23:20:24.262+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:20:24.421+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
+2025-01-12T23:21:32.580+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 23.0.1 with PID 56588 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:21:32.582+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:21:32.582+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:21:43.306+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 13.54 seconds (process running for 34.37)
+2025-01-12T23:21:44.702+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 1
+2025-01-12T23:21:44.989+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:21:45.102+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 7
+2025-01-12T23:21:45.135+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Concept author
+2025-01-12T23:21:45.209+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 9
+2025-01-12T23:21:45.357+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 12
+2025-01-12T23:22:00.721+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Starting PostServiceTest using Java 23.0.1 with PID 56588 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:22:00.722+0100 DEBUG              [main]                         be.pxl.services.service.PostServiceTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:22:00.722+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:22:03.607+0100 INFO               [main]                         be.pxl.services.service.PostServiceTest - Started PostServiceTest in 4.138 seconds (process running for 54.671)
+2025-01-12T23:22:03.813+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 5 by Test reviewer
+2025-01-12T23:22:03.947+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 9
+2025-01-12T23:22:03.993+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated with id: 10
+2025-01-12T23:22:04.060+0100 INFO               [main]                         be.pxl.services.services.PostService - Post updated to pending with id: 11
+2025-01-12T23:22:04.235+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 14
+2025-01-12T23:22:04.282+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 15 by Test reviewer
+2025-01-12T23:22:04.298+0100 INFO               [main]                         be.pxl.services.services.PostService - Post saved as concept with id: null by Test author
+2025-01-12T23:22:04.395+0100 INFO               [main]                         be.pxl.services.services.PostService - Post created with id: 18
+2025-01-12T23:22:04.446+0100 INFO               [main]                         be.pxl.services.services.PostService - Post approved with id: 19
+2025-01-12T23:22:04.520+0100 INFO               [main]                         be.pxl.services.services.PostService - Post rejected with id: 20 by Test reviewer
+2025-01-12T23:22:06.412+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Starting NotificationControllerTests using Java 23.0.1 with PID 56588 (started by Gebruiker in C:\Users\Gebruiker\Documents\School\PXL\Fullstack\Java\project-HarleenBhandalPXL\backend-java\Contentbeheer\post-service)
+2025-01-12T23:22:06.412+0100 DEBUG              [main]                         be.pxl.services.controller.NotificationControllerTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T23:22:06.413+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T23:22:10.027+0100 INFO               [main]                         be.pxl.services.controller.NotificationControllerTests - Started NotificationControllerTests in 4.857 seconds (process running for 61.091)
+2025-01-12T23:22:10.119+0100 INFO               [main]                         be.pxl.services.controller.NotificationController - Notification sent: Test notification message
+2025-01-12T23:22:10.280+0100 INFO               [main]                         be.pxl.services.services.QueueService - Message received in post-service from myQueue : Test message
